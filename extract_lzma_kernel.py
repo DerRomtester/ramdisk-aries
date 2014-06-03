@@ -6,7 +6,7 @@
 # Tested on galaxysmtd boot.img from CM11
 
 # Config
-fileIn = "/path/to/boot.img"
+fileIn = "boot.img"
 fileOut = "whole_disk.cpio"
 
 # Code
