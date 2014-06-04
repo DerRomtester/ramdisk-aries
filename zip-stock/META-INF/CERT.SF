@@ -1,73 +1,226 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android SignApk)
-SHA1-Digest-Manifest: /DPL1CChq2tqU8dXr86Op0ndF28=
+SHA1-Digest-Manifest: b2OqwMUI8PXNEiiJ0urNuytujko=
+
+Name: system/lib/modules/hid-roccat-kovaplus.ko
+SHA1-Digest-Manifest: dp2WYbsrimzHiCizUIsZyfeOsXs=
 
 Name: boot.img
-SHA1-Digest: wE+NGZr2uDQ15RGiOcHk3kBTczY=
+SHA1-Digest-Manifest: o3cnE/TRfmSt5bcvTdLgYZOi/40=
 
-Name: system/lib/modules/scsi_wait_scan.ko
-SHA1-Digest: 0ZE5I9y2uMDv7vHn2og94piDCgk=
+Name: system/lib/modules/hid-sjoy.ko
+SHA1-Digest-Manifest: V7iCQXuTXdD93hjmto9U4VzT5E8=
 
-Name: system/lib/libSEC_OMX_Core.so
-SHA1-Digest: WnvcIU0UrYxLf9e+ZtA1fnBjiRQ=
+Name: system/lib/modules/hid-belkin.ko
+SHA1-Digest-Manifest: X7ksamabAfYbH88mmQc4IlYVIt0=
 
-Name: system/lib/modules/ansi_cprng.ko
-SHA1-Digest: 7dx0/scII70B8DRkI64b/tDxsLk=
+Name: system/lib/modules/hid-axff.ko
+SHA1-Digest-Manifest: cmpnSrtX/hmGKQ7JVJWjAV1aUuk=
 
-Name: system/lib/libOMX.SEC.AVC.Encoder.so
-SHA1-Digest: HYar6D9TTdDxE/A/zGTCiclMU1A=
-
-Name: system/lib/modules/gspca_main.ko
-SHA1-Digest: LnhhCl1PY7IuK899bG634Dc//hw=
-
-Name: META-INF/com/google/android/update-binary
-SHA1-Digest: 685pJ4K5d1C3ngzSHz+NQWOExnQ=
-
-Name: system/lib/modules/cifs.ko
-SHA1-Digest: koihjfobkriQu80lCPSAu6DVsms=
+Name: system/lib/modules/hid-pl.ko
+SHA1-Digest-Manifest: 5xevw8LHrU5iF7kJAb/fRXSGEUM=
 
 Name: bml_over_mtd.sh
-SHA1-Digest: lW9zOXoCIN7hSaXaM7RGCkAMWyk=
+SHA1-Digest-Manifest: lW9zOXoCIN7hSaXaM7RGCkAMWyk=
 
-Name: system/mackay/aromafm.zip.cfg
-SHA1-Digest: Rg5sqFb78dMK1zbvcNacXcXO9g8=
+Name: system/lib/modules/hid-quanta.ko
+SHA1-Digest-Manifest: 3t5UmQAeuUGMU3PAZP1A0lDSlis=
 
-Name: system/lib/libOMX.SEC.M4V.Decoder.so
-SHA1-Digest: P/NppKuotDI8WlvMmfMh0N7T5Vo=
-
-Name: flash_image
-SHA1-Digest: j3TV7rBVqtIsY41+qqzXHOTY94k=
-
-Name: system/lib/libstagefright_omx.so
-SHA1-Digest: HluQEXzBDGcW7k3W4QkO+urvGGg=
+Name: system/lib/modules/hid-samsung.ko
+SHA1-Digest-Manifest: ITXOdQ1dzGgZ+Qa5W6LzJx/ZHoc=
 
 Name: META-INF/com/google/android/updater-script
-SHA1-Digest: qvtsKaIilmijDTc2yMm1MSD0qo4=
+SHA1-Digest-Manifest: Vzo242B08T4l5alYkyeSpzrBLnQ=
 
-Name: system/lib/libOMX.SEC.M4V.Encoder.so
-SHA1-Digest: 71UAx+Gf/q/0QxBN2bTlKK/55Zg=
+Name: system/lib/modules/hid-logitech.ko
+SHA1-Digest-Manifest: Aq+zGmNq2lhZcXzGC3nol+2clCw=
+
+Name: system/lib/modules/hid-petalynx.ko
+SHA1-Digest-Manifest: hik4RBJQyPpFveeJABaLyJ4RFQ4=
+
+Name: system/lib/modules/hid-roccat-kone.ko
+SHA1-Digest-Manifest: g+COg4wDey0WVeZ46bjKDsMsFMk=
+
+Name: system/lib/modules/hid-picolcd.ko
+SHA1-Digest-Manifest: lGS3BXoiw79iu5wiPWfvo4ynhaI=
+
+Name: system/lib/modules/hid-uclogic.ko
+SHA1-Digest-Manifest: Yiuxh9c659XuHdHpNyDfx1U4Fnk=
+
+Name: system/lib/modules/hid-twinhan.ko
+SHA1-Digest-Manifest: ZmP+sYySWN0igsIdum6MKlD1t5g=
+
+Name: system/lib/libSEC_OMX_Core.so
+SHA1-Digest-Manifest: IxNLgJ0iTAyyUEhFiy3+Vun/yzs=
+
+Name: system/lib/modules/hid-kye.ko
+SHA1-Digest-Manifest: 3M2vekqtSNO26PbLFi/ggvfCKfA=
+
+Name: system/lib/modules/hid-waltop.ko
+SHA1-Digest-Manifest: Yof80sZAe4NekgbdS8TMBWiBdL4=
+
+Name: system/lib/modules/tun.ko
+SHA1-Digest-Manifest: Nmx/tSSJrBA3iI2Ahl5v1MLRj2k=
+
+Name: system/lib/modules/gspca_main.ko
+SHA1-Digest-Manifest: V8t8NZxxCZZ8iUBBQdzldI9ReJ4=
+
+Name: system/lib/modules/hid-gyration.ko
+SHA1-Digest-Manifest: CmKotQykxOgFbHVQer7uG+LsG2M=
+
+Name: system/lib/modules/hid-sony.ko
+SHA1-Digest-Manifest: H0Yjm4OwSB4d9C7A10Jd5dWMnRA=
+
+Name: system/mackay/aromafm.zip.cfg
+SHA1-Digest-Manifest: 9BRis06jLwOyAWkNt0dBXmXkfyA=
+
+Name: system/lib/modules/hid-a4tech.ko
+SHA1-Digest-Manifest: sQEhJsoXSZQhXnZjTRSInKmyc30=
+
+Name: system/lib/modules/hid-emsff.ko
+SHA1-Digest-Manifest: HGl0FzZfGb+jlZONWYL2g7uolmc=
+
+Name: flash_image
+SHA1-Digest-Manifest: q2ru/Sr1jviaLVsFLSQP2f/n65Y=
+
+Name: system/lib/libstagefright_omx.so
+SHA1-Digest-Manifest: /ZVFO4yr6WsEXUhMgeNtoj5EsmI=
+
+Name: system/lib/modules/uhid.ko
+SHA1-Digest-Manifest: Y44hSJyxQohO5Oe0I04Rd9gZmBM=
 
 Name: system/lib/modules/nls_utf8.ko
-SHA1-Digest: 43lho1XTLFm8OP0lMZS58z+jKKs=
+SHA1-Digest-Manifest: GrxLY9i4XOIqQ9aotEXdTwFruGQ=
 
-Name: system/lib/libOMX.SEC.AVC.Decoder.so
-SHA1-Digest: eHOZJAcgjZ88JoSAwE0BpEwcUJU=
+Name: system/lib/libOMX.SEC.M4V.Encoder.so
+SHA1-Digest-Manifest: TVATp8MSmRc1aUIgOG6pUrJXHR4=
 
-Name: system/lib/modules/fuse.ko
-SHA1-Digest: 93nqAIy2iRT5eEOxoe97LcCY/bM=
+Name: system/lib/modules/configs.ko
+SHA1-Digest-Manifest: OXn60Bc9M93H9yDi/CkcV5jsIxw=
 
-Name: system/lib/hw/lights.aries.so
-SHA1-Digest: C/LD+MfRNHSKeqL9WRsgB8dZaC8=
+Name: system/lib/modules/ff-memless.ko
+SHA1-Digest-Manifest: QJ94sMi5ON9gXsI2NkOS3DsSnHU=
 
-Name: bml_over_mtd
-SHA1-Digest: i37NC/uACXnT6gFaFTxeXbW6b0M=
+Name: system/lib/modules/hid-roccat.ko
+SHA1-Digest-Manifest: lVG7xC4hQrKAtWDLG31JFtjJID8=
 
 Name: system/lib/modules/bcmdhd.ko
-SHA1-Digest: VhOb10xtSecRPPbf/nmZkS+FTT4=
+SHA1-Digest-Manifest: rzJN+7tj4RJ0EtwgTWsfo5ylBrc=
+
+Name: system/lib/modules/usbhid.ko
+SHA1-Digest-Manifest: e4QdTFkSBEsunps09ERZbNZK8e4=
+
+Name: system/lib/modules/hid-tmff.ko
+SHA1-Digest-Manifest: MM/hYhjbsf1b9Ii6+nyVsP/fVsc=
+
+Name: system/lib/modules/hid-topseed.ko
+SHA1-Digest-Manifest: 7KoA93q5A73jyLqpX88PBf/hdvc=
+
+Name: system/lib/modules/hid-roccat-arvo.ko
+SHA1-Digest-Manifest: ZenoL2aWe1yDwqMpOQgBosrqB8U=
+
+Name: system/lib/modules/hid-chicony.ko
+SHA1-Digest-Manifest: 2z/rfcfslDIEKnGfPio9Tnnvjig=
+
+Name: system/lib/modules/hid-roccat-koneplus.ko
+SHA1-Digest-Manifest: uEpriGuRpVkNFX+DIDi8bhyK6uU=
+
+Name: system/lib/modules/joydev.ko
+SHA1-Digest-Manifest: zU5/0wYSjiydgWFxUAMIgXm6q6Q=
+
+Name: system/lib/libOMX.SEC.AVC.Encoder.so
+SHA1-Digest-Manifest: 2KpCIA4iOmhXDJlhfwehW5is3CE=
+
+Name: system/lib/modules/hid-ortek.ko
+SHA1-Digest-Manifest: 9NGGikCvYBgxcwC7vjGWz9uyMsQ=
+
+Name: system/lib/modules/hid-multitouch.ko
+SHA1-Digest-Manifest: yKy/NpSbX4QLKr0wFbbvlMec9Ok=
+
+Name: system/lib/modules/hid-zydacron.ko
+SHA1-Digest-Manifest: dgrO4pyxokpDUM97gFHy5uRpYpA=
+
+Name: system/lib/modules/hid-cypress.ko
+SHA1-Digest-Manifest: jukrcjqtruXfGZSpbfxCkUSFtlU=
+
+Name: system/lib/modules/hid-monterey.ko
+SHA1-Digest-Manifest: mtZ/4P0vgbIlHPgtVig63hgApo4=
+
+Name: system/lib/modules/hid-lcpower.ko
+SHA1-Digest-Manifest: eUgZZN+Vcg39WrJW24SrHRyg3MY=
+
+Name: system/lib/modules/hid-kensington.ko
+SHA1-Digest-Manifest: Eo32ZjwYZcHonvjOrOFoUVDq8Q4=
+
+Name: system/lib/modules/hid-roccat-common.ko
+SHA1-Digest-Manifest: DvvsNiHQaF1R9IkRChU6dPHDitY=
 
 Name: erase_image
-SHA1-Digest: KK0bc4nmgps8l798t2JOsZgOvJ0=
+SHA1-Digest-Manifest: kmFCZK62Qxz8U+BLchmTQ3lgWX4=
+
+Name: system/lib/modules/hid-roccat-pyra.ko
+SHA1-Digest-Manifest: Z8aCh47NmM2+HQDO7Pg9itx0itk=
+
+Name: system/lib/modules/scsi_wait_scan.ko
+SHA1-Digest-Manifest: l19WLZNeOxVLdw9RFQvsamZpj5c=
+
+Name: system/lib/modules/radio-si4709-i2c.ko
+SHA1-Digest-Manifest: DMJy2W1lGfv8icEN2I2dt0dvucc=
+
+Name: system/lib/modules/ansi_cprng.ko
+SHA1-Digest-Manifest: uJyATHEnv49BufFYzJtJEgmAixI=
+
+Name: system/lib/modules/hid-keytouch.ko
+SHA1-Digest-Manifest: myw2F51DLXKqfMAqTly8iHtLwW4=
+
+Name: META-INF/com/google/android/update-binary
+SHA1-Digest-Manifest: AdU3znhdYRHBBCO8vpR3Jurtu1k=
+
+Name: system/lib/modules/hid-sunplus.ko
+SHA1-Digest-Manifest: si7BMEk+vSjk6BAncV6TRVaqQ8U=
+
+Name: system/lib/modules/cifs.ko
+SHA1-Digest-Manifest: L14aUiAQLjtnYLMxVZPay0H+A3Q=
+
+Name: system/lib/libOMX.SEC.M4V.Decoder.so
+SHA1-Digest-Manifest: 6aRUNWcE38w3CSxD+5/eZ75+n48=
+
+Name: system/lib/modules/hid-dr.ko
+SHA1-Digest-Manifest: 8+QMtpL7RDqcppNt5U4OEpvHiw8=
+
+Name: system/lib/modules/hid-ntrig.ko
+SHA1-Digest-Manifest: PiAO3R4mgp+Ej+VeQ3sLDe/GuFg=
+
+Name: system/lib/modules/hid-gaff.ko
+SHA1-Digest-Manifest: Xn9CxK6swaPZcuO6/82kG/DK2Ec=
+
+Name: system/lib/modules/mousedev.ko
+SHA1-Digest-Manifest: +0+f5Ob2auM2E2C5OTcAeRmagf4=
+
+Name: system/lib/modules/hid-microsoft.ko
+SHA1-Digest-Manifest: b8h/6BUOXxWm0mqBZJKoqgCpbGQ=
+
+Name: system/lib/modules/hid-zpff.ko
+SHA1-Digest-Manifest: k/I1OkFnCgvQxITWkVPiy4ACE8s=
+
+Name: system/lib/modules/hid-cherry.ko
+SHA1-Digest-Manifest: fxQB1yUk2NMtkeyK5scimz0XHyg=
+
+Name: system/lib/modules/hid-ezkey.ko
+SHA1-Digest-Manifest: FULi+7YyxHSK9MWjyOIZFWs1egU=
+
+Name: system/lib/libOMX.SEC.AVC.Decoder.so
+SHA1-Digest-Manifest: zgmKn03NPDo1iLg2ZUpV7HL2SZA=
+
+Name: system/lib/modules/xpad.ko
+SHA1-Digest-Manifest: 3RzQGmAOTocXWjT0WruLxuVEdVs=
+
+Name: system/lib/hw/lights.aries.so
+SHA1-Digest-Manifest: GuHs6vHdotnKIQ4eWurkLaHMa3Q=
+
+Name: bml_over_mtd
+SHA1-Digest-Manifest: KU6ZOQxoZ9DGEk7VWEY2m+Wv6o8=
 
 Name: system/mackay/aromafm.zip
-SHA1-Digest: 6zHdGCFwyzt1gLaMGqsBFjH3MxQ=
+SHA1-Digest-Manifest: 8eiwzuaVzRgItzf1n50+lIQhrZ4=
 

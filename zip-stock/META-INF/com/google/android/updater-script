@@ -1,7 +1,6 @@
 ui_print(">>");
 ui_print(">> CyanogenMod Bootimage Updater");
-ui_print(">> for I9000");
-ui_print(">> CM-11 Kernel");
+ui_print(">> for the NEO - Kernel");
 ui_print(">>");
 
 show_progress(0.100000, 5);
@@ -11,7 +10,6 @@ ui_print("		                                             ");
 #mount partitions
 run_program("/sbin/mount", "/system");
 run_program("/sbin/mount", "/data");
-run_program("/sbin/mount", "/sdcard");
 
 ui_print("Extracting kernel flash tools...");
 show_progress(0.200000, 5);
@@ -25,8 +23,24 @@ package_extract_file("erase_image", "/tmp/erase_image");
 set_perm(0, 0, 0777, "/tmp/erase_image");
 show_progress(0.300000, 5);
 
+ui_print("        Deleting all old stuff...           ");
+delete_recursive("/system/lib/modules");
+
 ui_print("Extracting modules...");
+ui_print("Extracting LED and 720p bigmem libs...");
 package_extract_dir("system/", "/system/");
+
+ui_print("Setting permission of modules...");
+set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
+
+ui_print("Setting permission of LED and 720p bigmem libs...");
+set_perm(0, 0, 0644, "/system/lib/hw/lights.aries.so");
+set_perm(0, 0, 0644, "/system/lib/libOMX.SEC.AVC.Decoder.so");
+set_perm(0, 0, 0644, "/system/lib/libOMX.SEC.AVC.Encoder.so");
+set_perm(0, 0, 0644, "/system/lib/libOMX.SEC.M4V.Decoder.so");
+set_perm(0, 0, 0644, "/system/lib/libOMX.SEC.M4V.Encoder.so");
+set_perm(0, 0, 0644, "/system/lib/libSEC_OMX_Core.so");
+set_perm(0, 0, 0644, "/system/lib/libstagefright_omx.so");
 
 ui_print("Setting up the kernel...");
 assert(run_program("/tmp/erase_image", "boot"));
@@ -35,8 +49,6 @@ assert(package_extract_file("boot.img", "/tmp/boot.img"),
        delete("/tmp/boot.img"));
 
 ui_print(" ");
-ui_print("Kernel successfuly installed.");
+ui_print("NEO - Kernel successfuly installed.");
 show_progress(0.100000, 1);
 unmount("/system");
-unmount("/data");
-unmount("/sdcard");
