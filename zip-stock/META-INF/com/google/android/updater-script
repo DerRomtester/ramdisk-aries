@@ -35,6 +35,7 @@ set_perm_recursive(0, 0, 0755, 0644, "/system/lib/modules");
 
 ui_print("Setting permission of LED and 720p bigmem libs...");
 set_perm(0, 0, 0644, "/system/lib/hw/lights.aries.so");
+set_perm(0, 0, 0644, "/system/lib/hw/lights.aries.so.bln");
 set_perm(0, 0, 0644, "/system/lib/libOMX.SEC.AVC.Decoder.so");
 set_perm(0, 0, 0644, "/system/lib/libOMX.SEC.AVC.Encoder.so");
 set_perm(0, 0, 0644, "/system/lib/libOMX.SEC.M4V.Decoder.so");
